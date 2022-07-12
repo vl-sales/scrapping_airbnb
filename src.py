@@ -110,10 +110,12 @@ for pagina in range(3):
     
     try:
         classe_bota_mudar_pag = "_1bfat5l"
+        # classe_bota_mudar_pag = "_1bfat5"
         botao_mudar_pagina = navegador.find_element(By.CLASS_NAME, classe_bota_mudar_pag)
         botao_mudar_pagina.click()
     except:
         critical("Não foi possível mudar de página")
 
 informacoes_hospedagens = pd.DataFrame(informacoes_hospedagens, columns=["Título", "link", "Valor"])
-informacoes_hospedagens.to_excel("informacoes_hospedagens.xlsx", index=False)
+informacoes_hospedagens.to_excel("data/informacoes_hospedagens.xlsx", index=False)
+informacoes_hospedagens.to_json("data/informacoes_hospedagens.json", force_ascii=False, orient="index")

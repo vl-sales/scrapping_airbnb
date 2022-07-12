@@ -59,3 +59,12 @@
 2022-07-11 20:18:45,246 - WARNING- Não foi possível encontrar o link da hospedagem
 2022-07-11 20:18:45,246 - WARNING- Não foi possível encontrar o link da hospedagem
 2022-07-11 20:18:45,254 - WARNING- Não foi possível encontrar o link da hospedagem
+2022-07-11 20:26:37,404 - CRITICAL- Não foi possível mudar de página
+2022-07-11 20:29:33,007 - CRITICAL- Não foi possível mudar de página
+2022-07-11 20:49:09,244 - CRITICAL- Não foi possível mudar de página
+2022-07-11 21:03:33,517 - CRITICAL- Não foi possível mudar de página
+2022-07-11 21:06:18,233 - CRITICAL- Não foi possível mudar de página
+2022-07-11 21:09:55,547 - CRITICAL- Não foi possível mudar de página
+2022-07-11 21:38:04,915 - CRITICAL- Não foi possível mudar de página
+2022-07-11 21:38:09,007 - CRITICAL- Não foi possível mudar de página
+2022-07-11 21:38:13,199 - CRITICAL- Não foi possível mudar de página
