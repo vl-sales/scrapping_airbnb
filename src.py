@@ -53,11 +53,11 @@ except:
     warning("Não foi possível localizar o input de data")
 
 if encontrado:
-    data_inicio_pesquisa = "2022-07-22"
+    data_inicio_pesquisa = "2022-07-25"
     data_inicio = navegador.find_element(By.XPATH, f"//div[@data-testid='datepicker-day-{data_inicio_pesquisa}']")
     data_inicio.click()
     # Selecionando data 2
-    data_fim_pesquisa = "2022-07-25"
+    data_fim_pesquisa = "2022-07-29"
     data_fim = navegador.find_element(By.XPATH, f"//div[@data-testid='datepicker-day-{data_fim_pesquisa}']")
     data_fim.click()
 
